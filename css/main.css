@@ -1,0 +1,178 @@
+body {
+  font-family: "Sour Gummy", serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar-custom {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navbar-custom .navbar-brand {
+  font-family: "Sour Gummy", serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-custom .nav-link {
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 10px 15px;
+}
+
+.navbar-custom .nav-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  color: #ffe5d9;
+}
+
+.navbar-custom .btn-custom {
+  background-color: #ffffff;
+  color: #f09819;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  transition: all 0.3s ease;
+  margin-top: 5px;
+}
+
+.navbar-custom .btn-custom:hover {
+  background-color: #f09819;
+  color: white;
+  border-color: #ffffff;
+  transform: scale(1.05);
+}
+
+.navbar-custom .nav-item {
+  margin-left: 10px;
+}
+
+.navbar-custom .nav-item:last-child {
+  margin-left: 10px;
+}
+
+.carousel-inner img {
+  height: 625px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+.menu-text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 36px;
+  background: linear-gradient(to right, #ff512f, #f09819);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.menu-text2 {
+  text-align: center;
+  background: linear-gradient(to right, #ff512f, #f09819);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.card img {
+  height: 200px;
+}
+
+.btn-color {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  color: white;
+}
+.btn-color:hover {
+  background: linear-gradient(to right, #e52600, #e88800);
+  color: white;
+}
+
+h2 {
+  color: #ff6600;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: black;
+}
+
+.img-fluid {
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-primary {
+  color: #ff6600 !important;
+}
+
+.shadow {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container {
+  margin-top: 50px;
+}
+.btn-submit {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+textarea {
+  resize: none;
+  width: 100%;
+  height: 100px;
+}
+
+#footer {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  color: white;
+  margin-top: 20px;
+}
